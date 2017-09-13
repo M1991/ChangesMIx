@@ -1,0 +1,28 @@
+AUTO - FORM SUBMIT
+
+$("button").click(
+    function() {
+        console.log("clicked...waiting...");
+
+        setTimeout(
+            function() {
+                alert("Called after delay.");
+            },
+            5000);
+    });
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<button type="button">Click Me</button>
+
+
+=====================================================
+https://stackoverflow.com/questions/3560227/jquery-javascript-trigger-button-click-from-another-button-click-event
+
+$(".first").click(function(){
+    $(".second").click(); 
+    return false;
+});
+
+
+SCROLL 
+https://stackoverflow.com/questions/4801655/how-to-go-to-a-specific-element-on-page
+
